@@ -1,0 +1,72 @@
+@media only screen and (max-width: 415px) {
+
+}
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header {
+    grid-area: header; 
+    background-image: url("movingStarsGif.gif");
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.navBar {
+    grid-area: navBar;
+    display: inline;
+    list-style: none;
+    background-color: black;
+    border-top: solid grey 1px;
+    border-bottom: grey solid 1px;
+    font-size: xx-large;
+    color: white;
+    padding-left: 25px;
+
+}
+a {
+    text-decoration: none;
+    margin-right: 15px;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    text-decoration: underline red;
+}
+.main {
+    grid-area: main;
+    background-color: rgb(175, 175, 175);
+    padding-left: 25px;
+}
+.tracks {
+    padding-left: 100px;
+}
+.footer {
+    grid-area: footer;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    'header'
+    'navBar'
+    'main'
+    'footer';
+    margin: 0;
+    padding: 0;
+}
+/*
+audio {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 200px;
+    height: 25px;
+}
+*/
+
