@@ -49,9 +49,11 @@ a:hover {
 }
 .footer {
     grid-area: footer;
+    background-color: darkgreen;
 }
 audio {
     height: 20px;
+    width: 50%;
 } 
 .wrapper {
     display: grid;
@@ -64,6 +66,7 @@ audio {
     'footer';
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 /*
 audio {
